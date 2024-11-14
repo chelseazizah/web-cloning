@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    height: 100dvd;
+}
+
+nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    z-index: 10;
+}
+
+nav.container {
+    display: flex;;
+}
+nav.container .logoContainer img{
+    width: 145px;
+    height: 45px;
+    margin-left: 60px;
+}
+
+nav.container div.navContainer ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+nav.container div.navContainer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.Tentang-Kami {
+    float: right;
+}
+
+nav ul {
+    list-style-type: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #FFAD60;
+    border-bottom: 1px solid black;
+}
+
+nav.container div.button button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #9d7dec;
+    font-size: 17px;
+    border-radius: 6px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    color: black;
+    padding: 5px 10px;
+}
+.overlay{
+    height: 50px;
+}
+.content img{
+    width: 100%;
+}
+
+section img{
+    margin-top: 75px;
+}
+
+.best-seller p{
+    color: black;
+    border-radius: 50%;
+    background-color: #FFAD60;
+    width: 130px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.best-seller{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 46%;
+    top: 130%
+}
+
+.mobile {
+    background-color: #FFB26F;
+    width: 100%;
+    height: 450px;
+    margin-top: 4rem;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+}
+.poster{
+    display: flex;
+    /* position: absolute; */
+    align-items: center;
+    background-color: magenta;
+    width: 100%;
+    margin-top: 4rem;
+    border-radius: 60px;
+}
+.poster-pink{
+    display: flex;
+    margin-left: 7rem;
+    margin-right: 5rem;
+    font-size: 40px;
+}
+.poster .text h1{
+    font-size: 40px ;
+    color: white;
+}
+
+.footer {
+    background-color: white;
+    height: 50vh;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.foot-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.foot-2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+}
+
+.foot-2 p{
+    font-size: 17px;
+}
+
+.foot-4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foot-4 p{
+    font-size: 18px;
+}
